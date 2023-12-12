@@ -5,7 +5,9 @@ reMarkable Template Qt Oxide Application
 
 - [src/vendor/epaper/epframebuffer.h](src/vendor/epaper/epframebuffer.h) - Methods for direct access to the reMarkable screen.
 - [src/vendor/epaper/libqsgepaper.a](src/vendor/epaper/libqsgepaper.a) - Static library that contains the epaper Qt platform. This is required for Qt to be able to interact with the screen on the reMarkable.
+- [src/vendor/liboxide](src/vendor/liboxide) - The liboxide API ([Documentation](https://oxide.eeems.codes/liboxide/))
 - [src/vendor/epaper.pri](src/vendor/epaper.pri) - Include file used by [src/src.pro](src/src.pro) to allow the application to access the epaper Qt platform.
+- [src/vendor/liboxide.pri](src/vendor/liboxide.pri) - Include file used by [src/src.pro](src/src.pro) to include the liboxide API.
 - [src/controller.h](src/controller.h) - Basic controller object that provides an interop between QML and C++.
 - [src/main.cpp](src/main.cpp) - Main application code.
 - [src/main.qml](src/main.qml) - Main user interface.
