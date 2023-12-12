@@ -71,3 +71,4 @@ RESOURCES += \
     qml.qrc
 
 include(vendor/epaper.pri)
+include(vendor/liboxide.pri)

@@ -1,7 +1,7 @@
 [![rm1](https://img.shields.io/badge/rM1-supported-green)](https://remarkable.com/store/remarkable) [![rm2](https://img.shields.io/badge/rM2-supported-green)](https://remarkable.com/store/remarkable-2) [![Discord](https://img.shields.io/discord/385916768696139794.svg?label=reMarkable&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ATqQGfu)
 
-reMarkable Template Qt Application
-==================================
+reMarkable Template Qt Oxide Application
+========================================
 
 - [src/vendor/epaper/epframebuffer.h](src/vendor/epaper/epframebuffer.h) - Methods for direct access to the reMarkable screen.
 - [src/vendor/epaper/libqsgepaper.a](src/vendor/epaper/libqsgepaper.a) - Static library that contains the epaper Qt platform. This is required for Qt to be able to interact with the screen on the reMarkable.
